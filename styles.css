@@ -1,0 +1,86 @@
+:root {
+  --primary-black: #090909;
+  --secondary-black: #232323;
+
+  --primary-brown: #6f2d05;
+  --secondary-brown: #b05108;
+
+  --primary-gray: #3d3d44;
+  --secondary-gray: #737973;
+
+  --primary-yellow: #ffbd10;
+  --secondary-yellow: #fce446;
+  --tertiary-yellow: #fff6a0;
+
+  --primary-orange: #fc900e;
+
+  --primary-red: #d52315;
+  --secondary-red: #f65b3d;
+}
+
+body {
+  display: flex;
+  width: "100%";
+  height: calc(100vh - 16px);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(50, 10px);
+  grid-template-rows: repeat(50, 10px);
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.primary-black {
+  background-color: var(--primary-black);
+}
+
+.secondary-black {
+  background-color: var(--secondary-black);
+}
+
+.primary-brown {
+  background-color: var(--primary-brown);
+}
+
+.secondary-brown {
+  background-color: var(--secondary-brown);
+}
+
+.primary-gray {
+  background-color: var(--primary-gray);
+}
+
+.secondary-gray {
+  background-color: var(--secondary-gray);
+}
+
+.primary-yellow {
+  background-color: var(--primary-yellow);
+}
+
+.secondary-yellow {
+  background-color: var(--secondary-yellow);
+}
+
+.tertiary-yellow {
+  background-color: var(--tertiary-yellow);
+}
+
+.primary-orange {
+  background-color: var(--primary-orange);
+}
+
+.primary-red {
+  background-color: var(--primary-red);
+}
+
+.secondary-red {
+  background-color: var(--secondary-red);
+}
